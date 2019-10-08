@@ -2,7 +2,8 @@ Pipeline {
 agent any
 Stages {
 Stage ('SCM checkout') {
-steps ('https://github.com/Deepti1103/maven-project.git') }
+steps ('https://github.com/Deepti1103/jenkins-example.git') 
+}
 }
 
 Stage ('Compile maven') {
